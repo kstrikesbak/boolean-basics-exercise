@@ -1,19 +1,20 @@
-let iGetTheJoke;
-let havingFun;
-let learning;
-let killingIt;
+let iGetTheJoke = false;
+let havingFun = false;
+let learning = true
+let killingIt = false;
 
 
-function returnFalse() {
-
+function returnFalse(str) {
+  return false;
 }
 
 function isOpposite(condition) {
+  return !condition;
 
 }
 
 function both(condition1, condition2) {
-
+  if (condition1)
 }
 
 function either(condition1, condition2) {
